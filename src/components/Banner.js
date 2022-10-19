@@ -12,7 +12,7 @@ const Banner = () => {
           LinkedIn <FaLinkedin size={30} />
         </>
       ),
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/mubarak-jimoh-b92245126/",
       style: "rounded-tr-md",
     },
     {
