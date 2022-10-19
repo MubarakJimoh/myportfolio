@@ -1,8 +1,8 @@
 import React from 'react'
-import installNode from '../assets/portfolio/jmportfolio.png'
+import installNode from '../assets/portfolio/portfoliopic.png'
 import navbar from '../assets/portfolio/reactWeather.jpg'
-import reactParallax from '../assets/portfolio/reactParallax.jpg'
-import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
+import reactParallax from '../assets/portfolio/Foodapppic.png'
+import reactSmooth from '../assets/portfolio/icccodepic.png'
 
 
 const Portfolio = () => {
@@ -10,26 +10,26 @@ const Portfolio = () => {
         {
           id: 1,
           src: installNode,
-          href1: "https://github.com/mubarakjimoh",
+          href1: "hhttps://github.com/MubarakJimoh/myportfolio",
           href2: "https://jimohmportfolio.netlify.app",
 
         },
         {
           id: 2,
           src: navbar,
-          href1: "https://github.com/mubarakjimoh",
+          href1: "https://github.com/MubarakJimoh/Weather-app",
           href2: "https://jimohmportfolio.netlify.app",
         },
         {
           id: 3,
           src: reactParallax,
-          href1: "https://github.com/mubarakjimoh",
-          href2: "https://jimohmportfolio.netlify.app",
+          href1: "hhttps://github.com/MubarakJimoh/Food-app",
+          href2: "https://afroeats.netlify.app",
         },
         {
           id: 4,
           src: reactSmooth,
-          href1: "https://github.com/mubarakjimoh",
+          href1: "https://github.com/MubarakJimoh/Train-simulator",
           href2: "https://jimohmportfolio.netlify.app",
         },
         
