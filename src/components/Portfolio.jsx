@@ -5,7 +5,7 @@ import reactParallax from '../assets/portfolio/reactParallax.jpg'
 import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 
 
-const Experience = () => {
+const Portfolio = () => {
     const links = [
         {
           id: 1,
@@ -78,4 +78,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Portfolio

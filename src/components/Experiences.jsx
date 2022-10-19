@@ -6,7 +6,7 @@ import reactimage from '../assets/react.png'
 import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
 
-const Experiences = () => {
+const Experience = () => {
     const techs = [
         {
           id: 1,
@@ -74,4 +74,4 @@ const Experiences = () => {
   )
 }
 
-export default Experiences
+export default Experience
