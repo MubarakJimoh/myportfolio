@@ -21,7 +21,7 @@ const About = () => {
                 <br />
                 <p className='text-xl'>
               I worked for 2 years in an automation company using C to program 
-              industrial arduinos to make aimulators. The other languages include
+              industrial arduinos to make simulators. The other languages include
               python and javascript and frameworks like react.
     
 
