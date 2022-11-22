@@ -3,6 +3,7 @@ import installNode from '../assets/portfolio/portfoliopic.png'
 import navbar from '../assets/portfolio/reactWeather.jpg'
 import reactParallax from '../assets/portfolio/Foodapppic.png'
 import reactSmooth from '../assets/portfolio/icccodepic.png'
+import recipe from '../assets/portfolio/recipeapppic.png'
 
 
 const Portfolio = () => {
@@ -32,6 +33,12 @@ const Portfolio = () => {
           href1: "https://github.com/MubarakJimoh/Train-simulator",
           href2: "https://jimohmportfolio.netlify.app",
         },
+        {
+          id: 5,
+          src: recipe,
+          href1: "https://github.com/MubarakJimoh/recipe-app",
+          href2: "https://recipeappbyjimoh.netlify.app",
+        },
         
         
       ]
@@ -55,10 +62,7 @@ const Portfolio = () => {
                 <img src= {src} alt=''
                 className='rounded-md duration-200
                            hover:scale-105  ' 
-                           key={id}/>
-            
-                  
-              
+                           key={id}/>  
         
                 <div className='flex items-center justify-center'>
                     <button  className='w-1/2 px-6 py-3
