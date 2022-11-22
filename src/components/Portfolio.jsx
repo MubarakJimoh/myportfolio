@@ -19,7 +19,7 @@ const Portfolio = () => {
           id: 2,
           src: navbar,
           href1: "https://github.com/MubarakJimoh/Weather-app",
-          href2: "https://jimohmportfolio.netlify.app",
+          
         },
         {
           id: 3,
@@ -31,7 +31,6 @@ const Portfolio = () => {
           id: 4,
           src: reactSmooth,
           href1: "https://github.com/MubarakJimoh/Train-simulator",
-          href2: "https://jimohmportfolio.netlify.app",
         },
         {
           id: 5,
@@ -69,10 +68,13 @@ const Portfolio = () => {
                     duratin-200 hover:scale-105'>
                       <a href= {href1}>github</a>
                     </button> 
-                    <button className='w-1/2 px-6 py-3
+                    {
+                     href2 && <button className='w-1/2 px-6 py-3
                     duratin-200 hover:scale-105'>
                        <a href= {href2}>Demo</a>
                     </button>
+                    }
+                    
                 </div>
             </div>
             ))}
