@@ -1,7 +1,8 @@
-import React, { useRef } from 'react';
+import React from 'react'
+import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 
-export const ContactUs = () => {
+const contact= () => {
     const form = useRef();
   
     const sendEmail = (e) => {
@@ -16,7 +17,7 @@ export const ContactUs = () => {
         });
     };
 
-const contact = () => {
+
   return (
     <div     
     name='contact'
@@ -66,5 +67,5 @@ const contact = () => {
     </div>
   )
 }
-}
+
 export default contact
