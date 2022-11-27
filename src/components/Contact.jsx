@@ -1,4 +1,20 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com'
+
+export const ContactUs = () => {
+    const form = useRef();
+  
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_a6neg5n', 'template_s8ghl95', 
+      form.current, '1jbWdS4S_V9uR2l1A')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
 
 const contact = () => {
   return (
@@ -16,7 +32,8 @@ const contact = () => {
                 <p className='py-6'> Submit the form if you want to conact me</p>
             </div>
             <div className='flex justify-center item center'>
-                <form action='' method='POST' className='flex flex-col w-full 
+                <form ref={form} onSubmit={sendEmail}
+                 method='POST' className='flex flex-col w-full 
                 md:w-1/2'>
                     <input 
                     type='text' 
@@ -49,5 +66,5 @@ const contact = () => {
     </div>
   )
 }
-
+}
 export default contact
