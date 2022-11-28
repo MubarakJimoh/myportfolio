@@ -33,7 +33,7 @@ const contact= () => {
                 <p className='py-6'> Submit the form if you want to conact me</p>
             </div>
             <div className='flex justify-center item center'>
-                <form ref={form} onSubmit={sendEmail}
+                <form ref={form} onSubmit={sendEmail} 
                  method='POST' className='flex flex-col w-full 
                 md:w-1/2'>
                     <input 
@@ -55,7 +55,7 @@ const contact= () => {
                      className='p-2 bg-transparent border-2
                     rounded-md text-white focus:outline-none'>
                     </textarea>
-                    <button className='group text-white w-fit px-6 py-3 my-2 
+                    <button type='submit' className='group text-white w-fit px-6 py-3 my-2 
                     flex items-center rounded-md
                     bg-gradient-to-r from-red-900 to-black cursor-pointer'>
                      Contact Me
