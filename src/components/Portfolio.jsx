@@ -30,13 +30,20 @@ const Portfolio = () => {
         {
           id: 4,
           src: reactSmooth,
-          href1: "https://github.com/MubarakJimoh/Train-simulator",
+          href1: "https://github.com/MubarakJimoh/stock-app",
+          href2: "https://stockappbyjimoh.netlify.app",
         },
         {
           id: 5,
           src: recipe,
           href1: "https://github.com/MubarakJimoh/recipe-app",
           href2: "https://recipeappbyjimoh.netlify.app",
+        },
+        {
+          id: 5,
+          src: recipe,
+          href1: "https://github.com/MubarakJimoh/Train-simulator",
+          
         },
         
         
