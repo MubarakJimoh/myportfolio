@@ -4,7 +4,7 @@ import navbar from '../assets/portfolio/reactWeather.jpg'
 import reactParallax from '../assets/portfolio/Foodapppic.png'
 import reactSmooth from '../assets/portfolio/icccodepic.png'
 import recipe from '../assets/portfolio/recipeapppic.png'
-
+import stockapp from '../assets/stockapp.png'
 
 const Portfolio = () => {
     const links = [
@@ -29,7 +29,7 @@ const Portfolio = () => {
         },
         {
           id: 4,
-          src: reactSmooth,
+          src: stockapp,
           href1: "https://github.com/MubarakJimoh/stock-app",
           href2: "https://stockappbyjimoh.netlify.app",
         },
@@ -40,8 +40,8 @@ const Portfolio = () => {
           href2: "https://recipeappbyjimoh.netlify.app",
         },
         {
-          id: 5,
-          src: recipe,
+          id: 6,
+          src: reactSmooth,
           href1: "https://github.com/MubarakJimoh/Train-simulator",
           
         },
