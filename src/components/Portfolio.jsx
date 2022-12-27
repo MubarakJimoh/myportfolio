@@ -4,7 +4,7 @@ import navbar from '../assets/portfolio/reactWeather.jpg'
 import reactParallax from '../assets/portfolio/Foodapppic.png'
 import reactSmooth from '../assets/portfolio/icccodepic.png'
 import recipe from '../assets/portfolio/recipeapppic.png'
-import stockapp from '../assets/stockapp.png'
+import stockapp from '../assets/portfolio/stockapp.png'
 
 const Portfolio = () => {
     const links = [
