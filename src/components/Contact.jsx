@@ -1,9 +1,9 @@
 import React from 'react'
-import { useRef } from 'react';
+import { useRef as UseRef } from 'react';
 import emailjs from 'emailjs-com'
 
 const contact= () => {
-    const form = useRef();
+    const form = UseRef();
   
     const sendEmail = (e) => {
       e.preventDefault();
